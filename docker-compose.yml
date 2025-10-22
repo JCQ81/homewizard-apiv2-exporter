@@ -1,0 +1,10 @@
+services:
+  app:
+    image: jcq81/homewizard-apiv2-exporter
+    container_name: homewizard-apiv2-exporter
+    ports:
+      - "9898:9898"
+    environment:
+      - PORT=9898
+    volumes:
+      - ./homewizard-apiv2-exporter.yml:/app/homewizard-apiv2-exporter.yml:ro

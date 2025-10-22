@@ -1,0 +1,7 @@
+cloud:
+  token: NONE
+targets:
+  - host: MyHwDevice1
+    token: YOURTOKENGOESHERE
+  - host: MyHwDevice2
+    token: YOURTOKENGOESHERE
